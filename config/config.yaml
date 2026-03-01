@@ -1,0 +1,35 @@
+# Configurazione – Chatbot Documentazione RAG
+# Modificare qui i parametri senza toccare il codice
+
+data:
+  raw_path: data/raw/
+  processed_path: data/processed/
+  supported_formats:
+    - .pdf
+    - .txt
+    - .docx
+
+chunking:
+  chunk_size: 1000        # caratteri per chunk
+  chunk_overlap: 200      # sovrapposizione tra chunk contigui
+
+embedding:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  # alternativa OpenAI: text-embedding-3-small
+
+vector_store:
+  persist_path: outputs/models/chroma_db
+  collection_name: documenti_aziendali
+
+retrieval:
+  top_k: 5               # numero di chunk recuperati per query
+
+llm:
+  provider: anthropic     # anthropic | openai
+  model: claude-haiku-4-5-20251001
+  max_tokens: 1024
+  temperature: 0.1        # bassa per risposte precise su documenti
+
+app:
+  title: Chatbot Documentazione Interna
+  page_icon: "📄"

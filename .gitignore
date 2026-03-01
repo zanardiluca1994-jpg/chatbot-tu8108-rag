@@ -1,0 +1,42 @@
+# Ambiente virtuale
+venv/
+.venv/
+env/
+
+# Variabili d'ambiente e credenziali
+.env
+*.key
+
+# Dati (non versionare file pesanti o sensibili)
+data/raw/
+data/processed/
+data/external/
+
+# Vector store (rigenerabile dalla pipeline)
+outputs/models/chroma_db/
+
+# Output generati
+outputs/figures/
+outputs/reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
