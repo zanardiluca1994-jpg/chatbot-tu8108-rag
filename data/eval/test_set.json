@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "domanda": "Chi è il 'lavoratore' ai sensi del D.Lgs. 81/2008?",
+    "articoli_attesi": ["2"],
+    "risposta_attesa": "Ai sensi dell'art. 2, comma 1, lett. a), per lavoratore si intende la persona che, indipendentemente dalla tipologia contrattuale, svolge un'attività lavorativa nell'ambito dell'organizzazione di un datore di lavoro pubblico o privato, con o senza retribuzione, anche al solo fine di apprendere un mestiere, un'arte o una professione.",
+    "categoria": "definizioni"
+  },
+  {
+    "id": 2,
+    "domanda": "Quali sono gli obblighi non delegabili del datore di lavoro?",
+    "articoli_attesi": ["17"],
+    "risposta_attesa": "Ai sensi dell'art. 17, il datore di lavoro non può delegare: a) la valutazione di tutti i rischi con la conseguente elaborazione del DVR; b) la designazione del Responsabile del Servizio di Prevenzione e Protezione (RSPP).",
+    "categoria": "obblighi_datore"
+  },
+  {
+    "id": 3,
+    "domanda": "Quale deve essere il contenuto minimo del Documento di Valutazione dei Rischi (DVR)?",
+    "articoli_attesi": ["28"],
+    "risposta_attesa": "Il DVR deve contenere, ex art. 28, comma 2: una relazione sulla valutazione dei rischi; l'indicazione delle misure di prevenzione e protezione adottate; il programma delle misure ritenute opportune per garantire il miglioramento nel tempo dei livelli di sicurezza; l'individuazione delle procedure per l'attuazione delle misure; i nominativi di RSPP, RLS e medico competente; l'identificazione delle mansioni che espongono i lavoratori a rischi specifici.",
+    "categoria": "DVR"
+  },
+  {
+    "id": 4,
+    "domanda": "Chi designa il Responsabile del Servizio di Prevenzione e Protezione (RSPP) e quali requisiti deve avere?",
+    "articoli_attesi": ["17", "32"],
+    "risposta_attesa": "Il RSPP è designato dal datore di lavoro [art. 17, comma 1, lett. b)]. Deve possedere capacità e requisiti professionali adeguati alla natura dei rischi presenti e di idonea formazione [art. 32]: laurea o diploma in indirizzi tecnici o scientifici oppure altro titolo, purché in possesso di un attestato di frequenza a specifici corsi di formazione in materia di prevenzione e protezione.",
+    "categoria": "RSPP"
+  },
+  {
+    "id": 5,
+    "domanda": "Quali sono gli obblighi dei lavoratori in materia di sicurezza?",
+    "articoli_attesi": ["20"],
+    "risposta_attesa": "I lavoratori devono [art. 20]: prendersi cura della propria salute e sicurezza e di quella delle altre persone presenti; osservare le disposizioni impartite dal datore di lavoro; utilizzare correttamente le attrezzature e i DPI; segnalare immediatamente le condizioni di pericolo; non rimuovere o modificare i dispositivi di sicurezza; non compiere operazioni non di propria competenza senza autorizzazione; partecipare ai programmi di formazione.",
+    "categoria": "obblighi_lavoratori"
+  },
+  {
+    "id": 6,
+    "domanda": "Quali sono le attribuzioni del Rappresentante dei Lavoratori per la Sicurezza (RLS)?",
+    "articoli_attesi": ["50"],
+    "risposta_attesa": "Il RLS [art. 50] ha diritto di: accedere ai luoghi di lavoro; essere consultato preventivamente sulla valutazione dei rischi e sulla designazione delle figure della sicurezza; ricevere le informazioni provenienti dai servizi di vigilanza; ricevere una formazione adeguata; fare proposte in merito all'attività di prevenzione; fare ricorso alle autorità competenti qualora ritenga che le misure di prevenzione adottate non siano idonee.",
+    "categoria": "RLS"
+  },
+  {
+    "id": 7,
+    "domanda": "In quali casi è obbligatoria la sorveglianza sanitaria?",
+    "articoli_attesi": ["41"],
+    "risposta_attesa": "La sorveglianza sanitaria è effettuata dal medico competente [art. 41, comma 1] nei casi previsti dalla normativa vigente, dalle indicazioni fornite dalla Commissione consultiva, nonché quando il lavoratore ne fa richiesta e la stessa sia ritenuta dal medico competente correlata ai rischi lavorativi. Comprende la visita preventiva, la visita periodica, la visita in occasione del cambio di mansione e alla cessazione del rapporto.",
+    "categoria": "sorveglianza_sanitaria"
+  },
+  {
+    "id": 8,
+    "domanda": "Cos'è il DUVRI e quando deve essere redatto?",
+    "articoli_attesi": ["26"],
+    "risposta_attesa": "Il DUVRI (Documento Unico di Valutazione dei Rischi da Interferenze) deve essere redatto dal datore di lavoro committente [art. 26, comma 3] quando affida lavori, servizi e forniture a imprese appaltatrici o lavoratori autonomi all'interno della propria azienda o unità produttiva. Il documento indica le misure adottate per eliminare o ridurre al minimo i rischi da interferenze tra le lavorazioni delle diverse imprese.",
+    "categoria": "appalti_DUVRI"
+  },
+  {
+    "id": 9,
+    "domanda": "Quali sono le sanzioni per il datore di lavoro che non elabora il DVR?",
+    "articoli_attesi": ["55"],
+    "risposta_attesa": "Ai sensi dell'art. 55, comma 1, lett. a), il datore di lavoro che non elabora il DVR è punito con l'arresto da tre a sei mesi o con l'ammenda da 2.500 a 6.400 euro. La medesima sanzione si applica se il DVR non riporta le informazioni richieste dall'art. 28, comma 2.",
+    "categoria": "sanzioni"
+  },
+  {
+    "id": 10,
+    "domanda": "Cosa si intende per Dispositivo di Protezione Individuale (DPI)?",
+    "articoli_attesi": ["74"],
+    "risposta_attesa": "Ai sensi dell'art. 74, comma 1, per DPI si intende qualsiasi attrezzatura destinata a essere indossata e tenuta dal lavoratore allo scopo di proteggerlo contro uno o più rischi suscettibili di minacciarne la sicurezza o la salute durante il lavoro, nonché ogni complemento o accessorio destinato a tale scopo.",
+    "categoria": "DPI"
+  },
+  {
+    "id": 11,
+    "domanda": "Quali sono gli obblighi del datore di lavoro in materia di DPI?",
+    "articoli_attesi": ["77"],
+    "risposta_attesa": "Il datore di lavoro [art. 77] deve: fornire gratuitamente ai lavoratori i DPI conformi alle norme in vigore; assicurarne le condizioni di efficienza e igienicità; assicurare che vengano utilizzati soltanto per gli usi previsti; fornire istruzioni comprensibili per i lavoratori; informare i lavoratori dei rischi dai quali il DPI li protegge; rendere disponibili informazioni adeguate su ciascun DPI.",
+    "categoria": "DPI"
+  },
+  {
+    "id": 12,
+    "domanda": "Cosa può fare un lavoratore in caso di pericolo grave e immediato?",
+    "articoli_attesi": ["44"],
+    "risposta_attesa": "Il lavoratore che, in caso di pericolo grave, immediato e che non può essere evitato, si allontana dal posto di lavoro o da una zona pericolosa non può subire pregiudizio alcuno [art. 44, comma 1]. Il lavoratore che nell'impossibilità di contattare il superiore gerarchico prende misure per evitare le conseguenze del pericolo, non deve essere penalizzato, tranne nel caso in cui abbia commesso una grave negligenza.",
+    "categoria": "diritti_lavoratori"
+  },
+  {
+    "id": 13,
+    "domanda": "Quando e come deve essere effettuata la formazione dei lavoratori?",
+    "articoli_attesi": ["37"],
+    "risposta_attesa": "Il datore di lavoro assicura che ciascun lavoratore riceva una formazione sufficiente e adeguata in materia di salute e sicurezza [art. 37, comma 1], con riferimento al proprio posto di lavoro e alle proprie mansioni. La formazione è effettuata in occasione: dell'assunzione; del trasferimento o cambio di mansioni; dell'introduzione di nuove attrezzature di lavoro, tecnologie o sostanze pericolose. Deve essere ripetuta periodicamente in relazione all'evoluzione dei rischi.",
+    "categoria": "formazione"
+  },
+  {
+    "id": 14,
+    "domanda": "Quali sono gli obblighi del preposto in materia di sicurezza?",
+    "articoli_attesi": ["19"],
+    "risposta_attesa": "Il preposto [art. 19] deve: sovrintendere e vigilare sulla osservanza delle disposizioni di sicurezza; verificare che i lavoratori adottino le misure di controllo; segnalare tempestivamente al datore o al dirigente le deficienze di dispositivi e attrezzature; richiedere l'osservanza delle misure di emergenza; segnalare le condizioni di pericolo; astenersi, salvo eccezioni, dall'intervenire di propria iniziativa in operazioni rischiose.",
+    "categoria": "obblighi_preposto"
+  },
+  {
+    "id": 15,
+    "domanda": "Quali titoli deve possedere il medico competente?",
+    "articoli_attesi": ["38"],
+    "risposta_attesa": "Ai sensi dell'art. 38, il medico competente deve essere in possesso di uno dei seguenti titoli o requisiti: specializzazione in medicina del lavoro o in medicina preventiva dei lavoratori e psicotecnica; docenza in medicina del lavoro o in medicina preventiva dei lavoratori e psicotecnica; autorizzazione del Ministero della salute alla data di entrata in vigore del decreto; specializzazione in igiene e medicina preventiva o in medicina legale.",
+    "categoria": "medico_competente"
+  },
+  {
+    "id": 16,
+    "domanda": "Quale contenuto minimo deve avere l'informazione fornita ai lavoratori?",
+    "articoli_attesi": ["36"],
+    "risposta_attesa": "Il datore di lavoro provvede affinché ciascun lavoratore riceva informazioni [art. 36, comma 1] su: rischi per la salute e sicurezza connessi all'attività dell'impresa in generale; rischi specifici cui è esposto in relazione alle mansioni svolte; normative di sicurezza e misure adottate; procedure di primo soccorso, lotta antincendio ed evacuazione; nominativi dei lavoratori incaricati di pronto soccorso e dei dirigenti e preposti.",
+    "categoria": "informazione"
+  },
+  {
+    "id": 17,
+    "domanda": "Quali sono gli obblighi del datore di lavoro e dei dirigenti previsti dall'art. 18?",
+    "articoli_attesi": ["18"],
+    "risposta_attesa": "Tra gli obblighi principali, il datore di lavoro e i dirigenti [art. 18] devono: nominare il medico competente per la sorveglianza sanitaria; designare i lavoratori incaricati dell'attuazione delle misure di emergenza; fornire ai lavoratori i necessari e idonei DPI; prendere misure affinché solo i lavoratori che abbiano ricevuto istruzioni adeguate accedano a zone di rischio grave; richiedere l'osservanza delle misure di sicurezza; adottare misure per il controllo delle situazioni di rischio in caso di emergenza.",
+    "categoria": "obblighi_datore"
+  },
+  {
+    "id": 18,
+    "domanda": "Come viene eletto o designato il Rappresentante dei Lavoratori per la Sicurezza (RLS)?",
+    "articoli_attesi": ["47"],
+    "risposta_attesa": "Il RLS è istituito a livello aziendale [art. 47]. Nelle aziende o unità produttive che occupano fino a 15 lavoratori è di norma eletto direttamente dai lavoratori al loro interno. Nelle aziende con più di 15 lavoratori è eletto o designato dai lavoratori nell'ambito delle rappresentanze sindacali in azienda (RSU). In assenza di RSU, è eletto dai lavoratori dell'azienda.",
+    "categoria": "RLS"
+  },
+  {
+    "id": 19,
+    "domanda": "Cos'è la valutazione dei rischi e chi è obbligato ad effettuarla?",
+    "articoli_attesi": ["2", "17", "28"],
+    "risposta_attesa": "Per valutazione dei rischi si intende la valutazione globale e documentata di tutti i rischi per la salute e sicurezza dei lavoratori presenti nell'ambito dell'organizzazione [art. 2, comma 1, lett. q)]. È un obbligo non delegabile del datore di lavoro [art. 17, comma 1, lett. a)]. Deve essere effettuata in collaborazione con RSPP e medico competente e deve riguardare tutti i rischi, inclusi quelli riguardanti gruppi di lavoratori esposti a rischi particolari [art. 28].",
+    "categoria": "DVR"
+  },
+  {
+    "id": 20,
+    "domanda": "Quali sanzioni sono previste per il datore di lavoro che non nomina il RSPP?",
+    "articoli_attesi": ["55"],
+    "risposta_attesa": "Ai sensi dell'art. 55, comma 1, lett. b), il datore di lavoro che non designa il Responsabile del Servizio di Prevenzione e Protezione è punito con l'arresto da tre a sei mesi o con l'ammenda da 2.500 a 6.400 euro.",
+    "categoria": "sanzioni"
+  },
+  {
+    "id": 21,
+    "domanda": "cosa rischia il capo se non redige il documento sui rischi?",
+    "articoli_attesi": ["55"],
+    "risposta_attesa": "Il datore di lavoro che non elabora il DVR rischia l'arresto da tre a sei mesi oppure l'ammenda da 2.500 a 6.400 euro [art. 55, comma 1, lett. a)]. La stessa sanzione si applica se il DVR non riporta le informazioni richieste dall'art. 28.",
+    "categoria": "sanzioni",
+    "tipo": "informale"
+  },
+  {
+    "id": 22,
+    "domanda": "chi gestisce la sicurezza in azienda e a chi mi rivolgo se ho un problema?",
+    "articoli_attesi": ["31", "32"],
+    "risposta_attesa": "La gestione della sicurezza è affidata al Servizio di Prevenzione e Protezione (SPP) [art. 31], istituito dal datore di lavoro. È guidato dal Responsabile del Servizio di Prevenzione e Protezione (RSPP) [art. 32], che deve possedere capacità e requisiti professionali adeguati alla natura dei rischi e aver frequentato specifici corsi di formazione.",
+    "categoria": "RSPP",
+    "tipo": "informale"
+  },
+  {
+    "id": 23,
+    "domanda": "se in cantiere c'è qualcosa di pericoloso posso andarmene senza essere licenziato?",
+    "articoli_attesi": ["44"],
+    "risposta_attesa": "Sì. Il lavoratore che in caso di pericolo grave, immediato e non evitabile si allontana dal posto di lavoro non può subire alcun pregiudizio [art. 44, comma 1]. Il lavoratore che, nell'impossibilità di contattare il superiore, prende misure per evitare le conseguenze del pericolo non deve essere penalizzato, salvo il caso di grave negligenza.",
+    "categoria": "diritti_lavoratori",
+    "tipo": "informale"
+  },
+  {
+    "id": 24,
+    "domanda": "quanto deve durare il corso di sicurezza obbligatorio per i nuovi assunti?",
+    "articoli_attesi": ["37"],
+    "risposta_attesa": "Il D.Lgs. 81/2008 prevede che la formazione sia sufficiente e adeguata in materia di salute e sicurezza [art. 37, comma 1], con riferimento al posto di lavoro e alle mansioni del lavoratore. La formazione deve avvenire in occasione dell'assunzione, del cambio di mansioni o dell'introduzione di nuove attrezzature, e deve essere ripetuta periodicamente in relazione all'evoluzione dei rischi.",
+    "categoria": "formazione",
+    "tipo": "informale"
+  },
+  {
+    "id": 25,
+    "domanda": "chi deve scrivere e firmare il documento della sicurezza in azienda?",
+    "articoli_attesi": ["17", "28"],
+    "risposta_attesa": "La redazione del DVR è un obbligo non delegabile del datore di lavoro [art. 17, comma 1, lett. a)]. Il documento deve essere elaborato previa consultazione del RSPP e del medico competente [art. 28, comma 2] e riporta i nominativi di RSPP, RLS e medico competente.",
+    "categoria": "DVR",
+    "tipo": "informale"
+  },
+  {
+    "id": 26,
+    "domanda": "il titolare di una piccola impresa può fare da solo il responsabile della sicurezza?",
+    "articoli_attesi": ["34"],
+    "risposta_attesa": "Sì, in determinati casi. Il datore di lavoro può svolgere direttamente i compiti del servizio di prevenzione e protezione [art. 34] se l'azienda rientra in specifiche tipologie (es. industrie e artigianato fino a 30 lavoratori, imprese agricole fino a 10 lavoratori) e a condizione che abbia frequentato i corsi di formazione specifici previsti.",
+    "categoria": "RSPP",
+    "tipo": "informale"
+  },
+  {
+    "id": 27,
+    "domanda": "cosa fa concretamente il medico del lavoro in azienda?",
+    "articoli_attesi": ["25"],
+    "risposta_attesa": "Il medico competente [art. 25] collabora con il datore di lavoro e il RSPP nella valutazione dei rischi; programma ed effettua la sorveglianza sanitaria; istituisce e aggiorna per ogni lavoratore una cartella sanitaria e di rischio; fornisce informazioni ai lavoratori sul significato della sorveglianza sanitaria; informa il datore sui risultati anonimi collettivi.",
+    "categoria": "medico_competente",
+    "tipo": "informale"
+  }
+]

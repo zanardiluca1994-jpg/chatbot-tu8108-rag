@@ -1,0 +1,26 @@
+{
+  "B0": {
+    "n_domande": 20,
+    "latency_media_s": 6.357,
+    "faithfulness_media": 4.4,
+    "relevance_media": 4.4
+  },
+  "B1": {
+    "n_domande": 20,
+    "latency_media_s": 2.485,
+    "hit_rate_1": 0.6,
+    "hit_rate_5": 0.6,
+    "mrr": 0.6,
+    "faithfulness_media": 3.45,
+    "relevance_media": 3.0
+  },
+  "B_full": {
+    "n_domande": 20,
+    "latency_media_s": 5.252,
+    "hit_rate_1": 0.6,
+    "hit_rate_5": 0.8,
+    "mrr": 0.6725,
+    "faithfulness_media": 4.0,
+    "relevance_media": 4.0
+  }
+}

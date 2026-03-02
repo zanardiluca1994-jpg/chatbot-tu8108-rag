@@ -12,8 +12,9 @@ data/raw/
 data/processed/
 data/external/
 
-# Vector store (rigenerabile dalla pipeline)
+# Vector store (rigenerabile con: make build-index)
 outputs/models/chroma_db/
+outputs/models/faiss_index/
 
 # Output generati
 outputs/figures/

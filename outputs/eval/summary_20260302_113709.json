@@ -1,0 +1,35 @@
+{
+  "B0": {
+    "n_domande": 20,
+    "latency_media_s": 6.431,
+    "faithfulness_media": 4.35,
+    "relevance_media": 4.4
+  },
+  "B1": {
+    "n_domande": 20,
+    "latency_media_s": 3.254,
+    "hit_rate_1": 0.3,
+    "hit_rate_5": 0.3,
+    "mrr": 0.3,
+    "faithfulness_media": 3.25,
+    "relevance_media": 2.95
+  },
+  "B_full": {
+    "n_domande": 20,
+    "latency_media_s": 3.707,
+    "hit_rate_1": 0.3,
+    "hit_rate_5": 0.6,
+    "mrr": 0.4292,
+    "faithfulness_media": 3.9,
+    "relevance_media": 3.75
+  },
+  "B_full_rw": {
+    "n_domande": 20,
+    "latency_media_s": 3.373,
+    "hit_rate_1": 0.2,
+    "hit_rate_5": 0.55,
+    "mrr": 0.3225,
+    "faithfulness_media": 3.55,
+    "relevance_media": 3.4
+  }
+}

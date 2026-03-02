@@ -65,13 +65,13 @@ Da completare **prima di scrivere codice**. Se un punto è N/A, motivarlo.
 - [ ] **F2** — Frequenza di valutazione qualità definita (manuale o RAGAS)
 
 ### Setup tecnico
-- [ ] Struttura cartelle professionale creata
-- [ ] Ambiente virtuale attivato e `requirements.txt` inizializzato
-- [ ] `config/config.yaml` con tutti i parametri (no hardcoding)
-- [ ] `.env.example` con tutte le variabili d'ambiente necessarie
-- [ ] `.gitignore` configurato (`.env`, `data/raw/`, vector store)
-- [ ] Repository Git inizializzato
-- [ ] `README.md` con obiettivo, stack, istruzioni di esecuzione
+- [x] Struttura cartelle professionale creata
+- [x] Ambiente virtuale creato (installazione requirements pending: VS Build Tools)
+- [x] `config/config.yaml` con tutti i parametri (no hardcoding)
+- [x] `.env.example` con tutte le variabili d'ambiente necessarie
+- [x] `.gitignore` configurato (`.env`, `data/raw/`, vector store)
+- [x] Repository Git inizializzato (commit: d7c8745)
+- [x] `README.md` con obiettivo, stack, istruzioni di esecuzione
 - [x] Baseline definita: B0 (LLM senza RAG) + B1 (RAG con top-1) → confronto con pipeline completa
 
 ---
