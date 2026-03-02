@@ -34,7 +34,7 @@ rilevanti e generi risposte ancorate al testo, con citazione articolo + comma.
 | Documento | D.Lgs. 81/2008 – Testo Unico Salute e Sicurezza sul Lavoro |
 | Edizione | Gennaio 2025 |
 | File | `data/raw/TU-81-08-Ed.-Gennaio-2025-1.pdf` |
-| Pagine | 198 |
+| Pagine | 1.282 |
 | Dimensione | 19.3 MB |
 | Tipo PDF | Testuale digitale (non scansionato, OCR non necessario) |
 | Parser scelto | `pdfplumber` (gestisce layout complesso e tabelle) |
@@ -48,7 +48,7 @@ multi-colonna in alcune sezioni. `pdfplumber` è più robusto di `pypdf` su ques
 | Campo | Valore |
 |-------|--------|
 | N° documenti iniziali | 1 |
-| Pagine totali | 198 |
+| Pagine totali | 1.282 |
 | Chunk stimati (1 per articolo) | ~300–350 chunk (il TU ha 306 articoli + allegati) |
 | Espansione prevista | Sì — aperto a circolari INAIL, interpelli ministeriali, norme UNI/ISO |
 | Vector store scelto | ChromaDB locale persistito su file |
@@ -397,7 +397,7 @@ Due baseline definite per misurare il contributo effettivo del RAG:
 ### A. Dati e Documenti
 - [x] **A1** — Parser: `pdfplumber`, formato PDF testuale
 - [x] **A1** — OCR: non necessario
-- [x] **A2** — Volume: 1 doc, ~198 pag, ~300–350 chunk — ChromaDB locale
+- [x] **A2** — Volume: 1 doc, ~1.282 pag, ~300–350 chunk — ChromaDB locale
 - [x] **A2** — Costo embedding: $0 (sentence-transformers locale)
 - [x] **A3** — Strategia: corpus statico, full rebuild manuale
 - [x] **A4** — Chunking per articolo con metadata strutturati
@@ -451,7 +451,7 @@ Due baseline definite per misurare il contributo effettivo del RAG:
 
 | Componente | Pianificato | Implementato | Motivo |
 |-----------|-------------|--------------|--------|
-| **PDF parser** | `pdfplumber` | `pypdfium2` | `pdfplumber.cluster_objects()` causava MemoryError su Windows con il PDF da 198 pag. (19.3 MB). `pypdfium2` processa page-by-page e non ha questo problema. |
+| **PDF parser** | `pdfplumber` | `pypdfium2` | `pdfplumber.cluster_objects()` causava MemoryError su Windows con il PDF da 1.282 pag. (19.3 MB). `pypdfium2` processa page-by-page e non ha questo problema. |
 | **Vector store** | ChromaDB locale | FAISS locale | FAISS era già presente nelle dipendenze e non richiede un server. Prestazioni equivalenti al volume attuale (8990 chunk). Migrazione a ChromaDB possibile in futuro senza modifiche all'architettura. |
 | **LLM** | Claude Haiku (Anthropic) | `gpt-4o-mini` (OpenAI) | Scelta operativa per la fase di sviluppo e valutazione. L'interfaccia è identica (streaming, temperature, max_tokens). Migrazione a Claude Haiku richiede solo di aggiungere il provider Anthropic in `rag_chain.py`. |
 | **Chunk stimati** | ~300–350 | **8990** | La stima originale contava gli articoli (306 + allegati). Il chunking reale produce un chunk per ogni sottovoce (comma, lettera, allegato). L'indice da 8990 chunk è corretto e performante. |

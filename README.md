@@ -25,7 +25,7 @@ Progressione completa in 5 cicli di tuning → [`outputs/eval/comparison_report.
 
 Questo progetto non è solo un esercizio tecnico. Il problema che risolve — e il metodo con cui è stato sviluppato — sono direttamente trasferibili al contesto operations.
 
-**Il problema operativo:** Un RSPP (Responsabile Servizio Prevenzione e Protezione) di uno stabilimento produttivo deve rispondere rapidamente a domande su obblighi, sanzioni e procedure senza sfogliare 198 pagine di normativa. Lo stesso problema si presenta ogni volta che un professionista deve recuperare informazioni precise da un corpus documentale esteso: specifiche tecniche prodotto, SLA contrattuali con i fornitori, procedure operative di stabilimento, manuali qualità ISO.
+**Il problema operativo:** Un RSPP (Responsabile Servizio Prevenzione e Protezione) di uno stabilimento produttivo deve rispondere rapidamente a domande su obblighi, sanzioni e procedure senza sfogliare 1.282 pagine di normativa. Lo stesso problema si presenta ogni volta che un professionista deve recuperare informazioni precise da un corpus documentale esteso: specifiche tecniche prodotto, SLA contrattuali con i fornitori, procedure operative di stabilimento, manuali qualità ISO.
 
 **Il metodo è identico al miglioramento continuo:** Il progetto è stato sviluppato con un approccio iterativo guidato dai dati — baseline → identificazione del gap → intervento mirato → misurazione → iterazione successiva. In 5 cicli la metrica principale è passata dal 45% all'80%. È la stessa logica del PDCA applicata a un sistema AI.
 
@@ -66,7 +66,7 @@ Le prime decisioni riguardano la natura del corpus: cosa si indicizza, in che vo
 
 > **Scelta in questo progetto**
 >
-> - **Formato:** PDF testuale (198 pag., D.Lgs. 81/2008 Ed. Gennaio 2025) — parser `pypdfium2`, scelto per basso consumo RAM su Windows rispetto a `pdfplumber` che causava MemoryError
+> - **Formato:** PDF testuale (1.282 pag., D.Lgs. 81/2008 Ed. Gennaio 2025) — parser `pypdfium2`, scelto per basso consumo RAM su Windows rispetto a `pdfplumber` che causava MemoryError
 > - **Volume:** 1 documento → 8.990 chunk (stima iniziale 300: errore di 25×, ogni comma/lettera è un chunk separato)
 > - **Aggiornamento:** corpus statico, full rebuild manuale con `make build-index` a ogni nuova edizione
 > - **Struttura:** il TU 81/08 ha gerarchia precisa (Titolo → Capo → Articolo → Comma → Lettera) — chunking per articolo preserva l'unità normativa citabile
