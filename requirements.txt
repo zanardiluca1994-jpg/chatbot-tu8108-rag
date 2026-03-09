@@ -1,5 +1,5 @@
 # RAG pipeline
-faiss-cpu==1.8.0
+faiss-cpu==1.13.0
 sentence-transformers==3.0.0
 rank-bm25==0.2.2
 

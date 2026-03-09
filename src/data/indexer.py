@@ -63,7 +63,7 @@ def build_index(
     logger.info(f"Generazione embedding per {len(texts)} chunk…")
     embeddings = model.encode(
         texts,
-        batch_size=64,
+        batch_size=16,
         show_progress_bar=True,
         normalize_embeddings=True,   # cosine similarity → inner product
     )

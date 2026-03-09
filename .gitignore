@@ -14,7 +14,7 @@ data/external/
 
 # Vector store (rigenerabile con: make build-index)
 outputs/models/chroma_db/
-outputs/models/faiss_index/
+# outputs/models/faiss_index/  ← incluso nel repo per deploy cloud
 
 # Output generati
 outputs/figures/
