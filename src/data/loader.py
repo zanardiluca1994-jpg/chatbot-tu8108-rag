@@ -4,7 +4,6 @@ Estrae il testo dal PDF e lo divide per articolo.
 """
 
 import re
-import pypdfium2 as pdfium
 from pathlib import Path
 from dataclasses import dataclass, field
 from loguru import logger
@@ -18,6 +17,7 @@ class Chunk:
 
 def load_pdf(pdf_path: str | Path) -> str:
     """Estrae il testo grezzo dal PDF pagina per pagina."""
+    import pypdfium2 as pdfium  # import lazy: solo quando si ricostruisce l'indice
     pdf_path = Path(pdf_path)
     if not pdf_path.exists():
         raise FileNotFoundError(f"PDF non trovato: {pdf_path}")
